@@ -2,6 +2,7 @@
 
 import math
 from PIL import Image
+import datetime
 
 # Define a function 'find_divisors' that takes a number as input and returns a list of its divisors.
 def find_divisors(num):
@@ -39,6 +40,10 @@ else:
     data = [int(bit) for bit in binary_string]
     image.putdata(data)
 
-    # Save the image in the appropriate format (e.g., PNG) with the filename 'output.png'.
-    image.save('output.png', format='PNG')
-    print("Image saved as 'output.png'")  # Print a message confirming the image has been saved.
+    # Generate a timestamp for the filename
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
+    # Save the image with dimensions and timestamp in the filename (e.g., 'output_256x256_20230922120000.png')
+    filename = f"output_{width}x{height}_{timestamp}.png"
+    image.save(filename, format='PNG')
+    print(f"Image saved as '{filename}'")
