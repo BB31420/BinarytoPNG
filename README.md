@@ -39,8 +39,8 @@ If prompted, install the Python extension for Visual Studio Code. This extension
 Run the Script:
 
 Open the binary_to_image_converter.py script in VS Code.
-Click the "Run Python File in Terminal" button in the top-right corner of the script editor.
-VS Code Run Button
+Click the "Run Python File in Terminal" button in the top-right corner of the script editor or use the menu "Run > Run without Debugging"
 
-This will execute the script in the integrated terminal.
+Note: You should have a folder containing the script saved as a .py file and the input file saved as .txt. The output images will be saved in this folder. After the script is ran, it will detect the available output dimensions, ask for your selection in this format "256x256" or "128x512" for examples.
+
 
