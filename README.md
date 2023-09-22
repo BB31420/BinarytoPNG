@@ -28,14 +28,14 @@ If you don't have VS Code installed, you can download it from the official websi
 
 ### Open VS Code:
 
-Open the Script:
+
 
 Click on "File" and select "Open Folder."
 Navigate to the folder where you have the script file (binaryimagegen.py) and your input text file (input.txt).
 Install the Python Extension (if not already installed):
 
 If prompted, install the Python extension for Visual Studio Code. This extension provides enhanced Python support.
-Run the Script:
+
 
 Open the binaryimagegen.py script in VS Code.
 Click the "Run Python File in Terminal" button in the top-right corner of the script editor or use the menu "Run > Run without Debugging"
