@@ -22,23 +22,22 @@ pip install pillow
 ## Running the Script in Visual Studio Code
 If you want to use Visual Studio Code (VS Code) to run the script, follow these steps:
 
-Download VS Code:
+### Download VS Code:
 
 If you don't have VS Code installed, you can download it from the official website: https://code.visualstudio.com/.
 
-Open VS Code:
+### Open VS Code:
 
-Launch VS Code.
 Open the Script:
 
 Click on "File" and select "Open Folder."
-Navigate to the folder where you have the script file (binary_to_image_converter.py) and your input text file (input.txt).
+Navigate to the folder where you have the script file (binaryimagegen.py) and your input text file (input.txt).
 Install the Python Extension (if not already installed):
 
 If prompted, install the Python extension for Visual Studio Code. This extension provides enhanced Python support.
 Run the Script:
 
-Open the binary_to_image_converter.py script in VS Code.
+Open the binaryimagegen.py script in VS Code.
 Click the "Run Python File in Terminal" button in the top-right corner of the script editor or use the menu "Run > Run without Debugging"
 
 Note: You should have a folder containing the script saved as a .py file and the input file saved as .txt. The output images will be saved in this folder. After the script is ran, it will detect the available output dimensions, ask for your selection in this format "256x256" or "128x512" for examples.
