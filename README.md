@@ -9,7 +9,7 @@ python --version
 ```
 If Python is installed, you will see its version displayed. If not, please follow the installation instructions mentioned below.
 
-###Installing Dependencies
+### Installing Dependencies
 Before running the script, you need to install the Pillow library (PIL Fork), which is used for image processing.
 
 Open a terminal or command prompt.
