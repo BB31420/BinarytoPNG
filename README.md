@@ -1,5 +1,5 @@
 # Binary to Image Converter
-This Python script converts a binary string stored in a text file into an image.
+This Python script converts a binary string stored in a text file into an image. The script will display each available output dimensions based on the input file character count. 
 
 ## Checking If Python is Installed
 To check if Python is installed on your system, open a terminal (Command Prompt on Windows, Terminal on macOS and Linux) and run the following command:
