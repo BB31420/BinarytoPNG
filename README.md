@@ -37,7 +37,7 @@ Install the Python Extension (if not already installed):
 If prompted, install the Python extension for Visual Studio Code. This extension provides enhanced Python support.
 
 
-Open the binaryimagegen.py script in VS Code.
+Open the (binaryimagegen.py) script in VS Code.
 Click the "Run Python File in Terminal" button in the top-right corner of the script editor or use the menu "Run > Run without Debugging"
 
 Note: You should have a folder containing the script saved as a .py file and the input file saved as .txt. The output images will be saved in this folder. After the script is ran, it will detect the available output dimensions, ask for your selection in this format "256x256" or "128x512" for examples.
