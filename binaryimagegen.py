@@ -1,4 +1,4 @@
-# Import the math module for mathematical operations and the Image class from the PIL library for image processing.
+# Import the math module for mathematical operations, the Image class from the PIL library for image processing and the datetime module for saving the output.
 
 import math
 from PIL import Image
