@@ -7,7 +7,7 @@ To check if Python is installed on your system, open a terminal (Command Prompt 
 ```
 python --version
 ```
-If Python is installed, you will see its version displayed. If not, please follow the installation instructions mentioned below.
+If Python is installed, you will see its version displayed.
 
 ### Installing Dependencies
 Before running the script, you need to install the Pillow library (PIL Fork), which is used for image processing.
@@ -32,7 +32,7 @@ If you don't have VS Code installed, you can download it from the official websi
 
 Click on "File" and select "Open Folder."
 Navigate to the folder where you have the script file (binaryimagegen.py) and your input text file (input.txt).
-Install the Python Extension (if not already installed):
+Install the Python Extension in VS code (if not already installed):
 
 If prompted, install the Python extension for Visual Studio Code. This extension provides enhanced Python support.
 
