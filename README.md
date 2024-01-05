@@ -19,6 +19,19 @@ Install Pillow using pip:
 ```
 pip install pillow
 ```
+### Running the code
+```
+git clone git@github.com:BB31420/BinarytoPNG.git
+```
+Navigate to the directory:
+```
+cd BinarytoPNG/
+```
+Run the script:
+```
+python3 binaryimagegen.py
+```
+
 ## Running the Script in Visual Studio Code
 If you want to use Visual Studio Code (VS Code) to run the script, follow these steps:
 
